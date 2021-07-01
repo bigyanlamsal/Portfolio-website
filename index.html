@@ -232,22 +232,22 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form name="contact"  method="POST" data-netlify="true">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" class="name"  placeholder="Name">
-                            </div>
-                            <div class="field email">
-                                <input type="text" class="email" placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="field textarea">
-                            <textarea id="message" cols="30" rows="10" placeholder="Message.."></textarea>
-                        </div>
-                        <div class="button-area">
-                            <button class="send-msg" type="submit" name="send">Send message</button>
-                        </div>
-                    </form>
+                    <form name="contact" method="POST" data-netlify="true">
+                        <p>
+                          <label>Your Name: <input type="text" name="name" /></label>   
+                        </p>
+                        <p>
+                          <label>Your Email: <input type="email" name="email" /></label>
+                        </p>
+                       
+                        <p>
+                          <label>Message: <textarea name="message"></textarea></label>
+                        </p>
+                        <p>
+                          <button type="submit">Send</button>
+                        </p>
+                      </form>
+                      
                 </div>
 
             </div>
