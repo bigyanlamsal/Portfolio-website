@@ -233,21 +233,34 @@
                 <div class="column right">
                     <div class="text">Message me</div>
                     <form name="contact" method="POST" data-netlify="true">
-                        <p>
-                          <label>Your Name: <input type="text" name="name" /></label>   
-                        </p>
-                        <p>
-                          <label>Your Email: <input type="email" name="email" /></label>
-                        </p>
-                       
-                        <p>
-                          <label>Message: <textarea name="message"></textarea></label>
-                        </p>
-                        <p>
-                          <button type="submit">Send</button>
-                        </p>
+                        
+                        <div class="fields">
+                            <div class = "field ">
+                                <input type="text" name="name" id="name" placeholder="Name"/>
+                            </div>
+                        
+                        </div>
                       </form>
                       
+                      <form name="contact" method="POST" data-netlify="true">
+                        
+                        <div class="fields">
+                        
+                            <div class = "field ">
+                                <input type="text" name="e-mail"  id="Email" placeholder="E-mail"/>
+                            </div>
+                            
+                        </div>
+                      </form>
+
+                      <form name="contact" method="POST" data-netlify="true">
+
+                       <div class="field " type="text">
+                          <textarea  name="message" id ="message" placeholder="Message" rows="7" /></textarea>
+                       </div>
+
+                      </form>
+
                 </div>
 
             </div>
